@@ -1,31 +1,90 @@
 
-```uv --version
-```
+# 🌍 Travel Planner Agentic Application
+
+An **Agentic AI-powered travel planning application** that generates a **complete end-to-end travel itinerary** using multiple intelligent tools such as weather forecasting, place search, expense calculation, and currency conversion.
+
+This project demonstrates how **Agentic AI systems** can autonomously reason, call tools, and generate structured real-world outputs using **LangGraph + LangChain**.
+
+---
+
+## 🚀 Features
+
+- 🧠 Agentic AI workflow using LangGraph
+- 🗺️ Day-wise travel itinerary generation
+- 🏨 Hotel recommendations
+- 🍽️ Restaurant suggestions
+- 📍 Places & attractions
+- 🌦️ Real-time weather & forecast
+- 💰 Detailed cost estimation
+- 🚕 Transportation recommendations
+- 💬 Natural language user input
+- 🖥️ Interactive Streamlit UI
+
+---
+
+## 🧱 Architecture Overview
+
+The system is built using an **agent + tools architecture**:
+
+- LLM Agent (Groq)
+- Weather Tool (OpenWeatherMap API)
+- Place Search Tool
+- Expense Calculator Tool
+- Currency Converter Tool
+- LangGraph workflow orchestration
+
+The agent dynamically decides which tools to invoke based on user intent.
+
+---
+
+## 🖥️ Application UI
+
+Below are sample outputs from the **Travel Planner Agentic Application**, showcasing different stages of the AI-powered travel planning workflow.
+
+---
+
+### 🔍 Trip Search & User Input
+![Trip Search](screenshots/Search.png)
+
+This screen allows users to enter natural language queries such as  
+*“Plan a trip to New York for 5 days”*.
+
+---
+
+### 🗺️ Places to Visit
+![Visiting Places](screenshots/Visiting_places.png)
+
+AI-generated list of must-visit attractions, landmarks, and experiences tailored to the destination.
+
+---
+
+### 🏨 Hotel Recommendations
+![Hotel Recommendations](screenshots/Hotel_Recomm.png)
+
+Curated hotel suggestions with estimated pricing based on location and trip duration.
+
+---
+
+### 🍽️ Restaurants & Food Options
+![Restaurants and Food](screenshots/Restaurants_and.png)
+
+Popular restaurants and dining recommendations generated using location intelligence.
+
+---
+
+### 🚕 Transportation Options
+![Transportation](screenshots/Transportation.png)
+
+Suggested transportation modes including flights, taxis, public transport, and walking routes.
+
+---
+
+### 🌦️ Weather Details
+![Weather](screenshots/weather.png)
+
+Current weather and multi-day forecast for the destination to help travelers plan accordingly.
 
 
-```import shutil
-print(shutil.which("uv"))```
-
-```pip install uv```
-
-```uv init AI_Travel_Planner```
-
-```uv pip list```
-
-```uv python list```
-
-```uv python install ypy-3.10.16-windows-x86_64-none```
-
-```uv python list```
-
-```uv venv env --python cpython-3.10.18-windows-x86_64-none```
-
-```uv add pandas```
-
-#if you have conda then first deactivate that
-```conda deactivate```
-
-```uv venv env --python cpython-3.10.18-windows-x86_64-none```
 
 ## use this command from your virtual env
 ```C:\Users\sunny\AI_Trip_Planner\env\Scripts\activate.bat```
