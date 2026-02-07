@@ -51,7 +51,7 @@ This screen allows users to enter natural language queries such as
 ---
 ### 🗺️ Places
 ![Visiting Places](screenshots/plan.png)
-![Visiting Places](screenshots/planning.png)
+![Visiting Places](screenshots/planing.png)
 
 The list of 5 Places for staying and costs according to that
 
