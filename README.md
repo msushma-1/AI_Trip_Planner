@@ -61,6 +61,7 @@ The list of 5 Places for staying and costs according to that
 
 Curated hotel suggestions with estimated pricing based on location and trip duration.
 and Places must-visit attractions, landmarks, and experiences tailored to the destination.
+
 ---
 
 ---
