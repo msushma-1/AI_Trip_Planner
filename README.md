@@ -43,24 +43,25 @@ The agent dynamically decides which tools to invoke based on user intent.
 ---
 
 ### 🔍 Trip Search & User Input
-![Trip Search](screenshots/Search.png)
+![Trip Search](screenshots/Browse.png)
 
 This screen allows users to enter natural language queries such as  
 *“Plan a trip to New York for 5 days”*.
 
 ---
+### 🗺️ Places
+![Visiting Places](screenshots/plan.png)
+(screenshots/planning.png)
 
-### 🗺️ Places to Visit
-![Visiting Places](screenshots/Visiting_places.png)
-
-AI-generated list of must-visit attractions, landmarks, and experiences tailored to the destination.
+The list of 5 Places for staying and costs according to that
 
 ---
-
-### 🏨 Hotel Recommendations
-![Hotel Recommendations](screenshots/Hotel_Recommendation.png)
+### 🏨 Hotels & Places of attracion
+![Visiting Places](screenshots/Hotels_Places.png)
 
 Curated hotel suggestions with estimated pricing based on location and trip duration.
+and Places must-visit attractions, landmarks, and experiences tailored to the destination.
+---
 
 ---
 
@@ -72,9 +73,9 @@ Popular restaurants and dining recommendations generated using location intellig
 ---
 
 ### 🚕 Transportation Options
-![Transportation](screenshots/Transportation_Mode.png)
+![Transportation](screenshots/Transportation_cost.png)
 
-Suggested transportation modes including flights, taxis, public transport, and walking routes.
+Suggested transportation modes including flights, taxis, public transport, and walking routes, detailed cost breakdown and budget.
 
 ---
 
